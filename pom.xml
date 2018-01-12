@@ -16,9 +16,6 @@
     </dependency>
   </dependencies>
 
-
-
-
   <scm>
     <connection>scm:git:git@github.com:cf2141/pacf04.git</connection>
     <url>scm:git:git@github.com:cf2141/pacf04.git</url>
@@ -36,6 +33,10 @@
     </plugins>
   </build>  
   
+  <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
 
 
 
